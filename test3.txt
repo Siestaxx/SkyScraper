@@ -1,0 +1,24 @@
+Input:
+4
+4 4 4 4
+3 3 3 3
+2 2 2 2
+1 1 1 1
+
+Output:
+4  4  4  4
+3  3  3  3
+2  2  2  2
+1  1  1  1
+the puzzle is invalid
+
+Description:
+
+  Input: 
+     We can see that the first line is the DIM number, which is 4, and below, it allows us to input a 4x4 matrix. And then, we see the matrix input, it is an incorrect 4x4 matrix that does not satisfy the puzzle, which means that it has more than one same number in the row or column, because the first row has 4 4s, second row has 4 3s, third row has 4 2s and the last row has 4 1s.
+
+  Output:
+     In the output, we see the following 4 lines, which is the matrix that the project require us to output in the print(), the same matrix as the input.
+     Then, because we input an incorrect matrix puzzle, it output the statement "the puzzle is invalid", as the project required in the verifyPlacement().
+     
+     From the above description, it can show our program is correct under test3.

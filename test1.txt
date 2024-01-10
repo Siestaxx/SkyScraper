@@ -1,0 +1,49 @@
+Input:
+4
+4 3 2 1
+3 2 1 4
+2 1 4 3
+1 4 3 2
+
+Output:
+4  3  2  1
+3  2  1  4
+2  1  4  3
+1  4  3  2
+the puzzle is valid
+   1 2 2 2   
+   -------
+1 |4 3 2 1|4 
+2 |3 2 1 4|1 
+2 |2 1 4 3|2 
+2 |1 4 3 2|3 
+   -------
+   4 1 2 3   
+
+Description:
+
+  Input: 
+     We can see that the first line is the DIM number, which is 4, and below, it allows us to input a 4x4 matrix. And then, we see the matrix input, it is a correct 4x4 matrix that satisfy the puzzle, which means that it does not have more than one same number in the row or column.
+
+  Output:
+     In the output, we see the following 4 lines, which is the matrix that the project require us to output in the print(), the same matrix as the input.
+     Then, because we input a correct matrix puzzle, it output the statement "the puzzle is valid", as the project required in the verifyPlacement().
+     Lastly, it output the requirement of the printwithVisibility(), which is correct with the verify below:
+        First column from upper side: we can only see 4, which print 1 at the top.
+        Second column from upper side: we can see 3 and 4, which print 2 at the top.
+        Third column from upper side: we can see 2 and 4, which print 2 at the top.
+        Last column from upper side: we can see 1 and 4, which print 2 at the top.
+        First column from down side: we can see 1, 2, 3 and 4, which print 4 at the bottom.
+        Second column from down side: we can see only see 4, which print 1 at the bottom.
+        Third column from down side: we can see 3 and 4, which print 2 at the bottom.
+        Last column from down side: we can see 2, 3 and 4, which print 3 at the bottom.
+        First row from left: we can only see 4, which print 1 at the left.
+        Second row from left side: we can see 3 and 4, which print 2 at the left.
+        Third row from left side: we can see 2 and 4, which print 2 at the left.
+        Last row from left side: we can see 1 and 4, which print 2 at the left.
+        First row from right side: we can see 1, 2, 3 and 4, which print 4 at the right.
+        Second row from right side: we can only see 4, which print 1 at the right.
+        Third row from right side: we can see 3 and 4, which print 2 at the right.
+        Last row from right side: we can see 2, 3 and 4, which print 3 at the right.
+
+  From the above description, it can show our program is correct under test1.
